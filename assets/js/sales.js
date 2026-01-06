@@ -1,7 +1,5 @@
 import { propiedades_venta } from "./arrays.js";
 
-const imgBase = location.pathname.includes('/assets/paginas/') || location.pathname.includes('/paginas/') ? '../img/' : 'assets/img/';
-
 export const mostrarSales = () => {
   const container = document.querySelector("#card_sales");
   let contenidoHTML = "";
@@ -11,7 +9,7 @@ export const mostrarSales = () => {
         <div class="col-12 col-md-6 col-lg-6 mb-4 d-flex">
           <div class="card w-100">
               <img
-                src="${imgBase + prop.src}"
+                src="${new URL('../img/' + prop.src, import.meta.url).href}"
                 class="card-img-top"
                 alt="${prop.nombre}"/>
               <div class="card-body">

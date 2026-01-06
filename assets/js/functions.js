@@ -1,6 +1,5 @@
 import { propiedades_renta, propiedades_south, propiedades_venta } from "./arrays.js";
 
-const imgBase = location.pathname.includes('/assets/paginas/') || location.pathname.includes('/paginas/') ? '../img/' : 'assets/img/';
 
 const mostarPropiedades = (arrays, contenedorHTML) => {
 
@@ -13,7 +12,7 @@ const mostarPropiedades = (arrays, contenedorHTML) => {
         <div class="col-12 col-md-6 col-lg-6 mb-4 d-flex">
           <div class="card w-100">
               <img
-                src="${imgBase + array.src}"
+                src="${new URL('../img/' + array.src, import.meta.url).href}"
                 class="card-img-top"
                 alt="depto"/>
               <div class="card-body">

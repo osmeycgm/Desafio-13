@@ -34,9 +34,9 @@ const mostarPropiedades = (arrays, contenedorHTML) => {
                 </p>
                 <p><i class="fas fa-dollar-sign"></i> ${array.costo}</p>
                 
-                  ${array.piscina ? '<p class="text-success"><i class="fa-solid fa-person-swimming"></i> Piscina </p>' : '<p class="text-danger"><i class="fa-solid fa-person-swimming"></i> Sin piscina    </p>'}
-                  ${array.smoke ? '<p class="text-success"> <i class="fas fa-smoking"></i> Permitido Fumar  </p>' : ' <p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar </p>'}
-                  ${array.pets ? '<p class="text-success"><i class="fas fa-paw"></i> Mascotas Permitidas </p>' : '<p class="text-danger"><i class="fas fa-ban"></i>No se permiten Mascotas     </p>'}
+                  ${array.piscina ? '<p class="text-success"><i class="fa-solid fa-person-swimming"></i> Pool </p>' : '<p class="text-danger"><i class="fa-solid fa-person-swimming"></i> No Pool    </p>'}
+                  ${array.smoke ? '<p class="text-success"> <i class="fas fa-smoking"></i> Smoking allowed  </p>' : ' <p class="text-danger"><i class="fas fa-smoking-ban"></i> No smoking allowed </p>'}
+                  ${array.pets ? '<p class="text-success"><i class="fas fa-paw"></i> Pets Friendly </p>' : '<p class="text-danger"><i class="fas fa-ban"></i> No pets allowed</p>'}
                   <p style=> . . . </p>
                 </div>
                 </div>

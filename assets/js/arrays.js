@@ -43,7 +43,7 @@ export const propiedades_renta = [
     },
     {
         nombre: 'Beach House in Algarrobo, Valparaíso.',
-        src: 'depto1.jpg',
+        src: 'beach.jpg',
         descripcion: 'Beach house just 30ms away from the beach and 10 mins from the Downtown',
         ubicacion: 'Villa 543',
         habitaciones: 4,

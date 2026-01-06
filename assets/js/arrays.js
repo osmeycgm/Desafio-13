@@ -1,7 +1,7 @@
 export const propiedades_renta = [
     {
         nombre: 'Beach House in Papudo, Valparaíso.',
-        src: '/assets/img/beach1.jpg',
+        src: 'beach1.jpg',
         descripcion: 'Beach house in Papudos Downtwon, with everything needed for holidays',
         ubicacion: 'Marcia 436',
         habitaciones: 4,
@@ -15,7 +15,7 @@ export const propiedades_renta = [
     },
     {
         nombre: 'Holiday House in Lampa, Metropolitan Region.',
-        src: '/assets/img/country2.jpg',
+        src: 'country2.jpg',
         descripcion: 'Spaceous parcel with great amenities and services. Everything you need to relax for days.',
         ubicacion: 'Fila 93',
         habitaciones: 2,
@@ -29,7 +29,7 @@ export const propiedades_renta = [
     },
      {
         nombre: 'Apartment in Providencia, Santiago.',
-        src: '/assets/img/depto.jpg',
+        src: 'depto.jpg',
         descripcion: 'Well-located apartment with many amenities within the complex. Ready for Sale.',
         ubicacion: 'San Martini 1234',
         habitaciones: 2,
@@ -43,7 +43,7 @@ export const propiedades_renta = [
     },
     {
         nombre: 'Beach House in Algarrobo, Valparaíso.',
-        src: '/assets/img/depto1.jpg',
+        src: 'depto1.jpg',
         descripcion: 'Beach house just 30ms away from the beach and 10 mins from the Downtown',
         ubicacion: 'Villa 543',
         habitaciones: 4,
@@ -60,7 +60,7 @@ export const propiedades_renta = [
 export const propiedades_venta = [
     {
         nombre: 'Apartment in Providencia, Santiago.',
-        src: '/assets/img/depto.jpg',
+        src: 'depto.jpg',
         descripcion: 'Well-located apartment with many amenities within the complex. Ready for Sale.',
         ubicacion: 'San Martini 1234',
         habitaciones: 2,
@@ -74,7 +74,7 @@ export const propiedades_venta = [
     },
     {
         nombre: 'Apartment in La Florida, Santiago.',
-        src: '/assets/img/depto2.jpg',
+        src: 'depto2.jpg',
         descripcion: 'Apartment building located in the suburbs of La Florida with quiet and safe eviroment. Ready to Sale.',
         ubicacion: 'Santa Inés 543',
         habitaciones: 2,
@@ -88,7 +88,7 @@ export const propiedades_venta = [
     },
     {
         nombre: 'Cabin for sale in Temuco Downtown, La Araucanía.',
-        src: '/assets/img/country.jpg',
+        src: 'country.jpg',
         descripcion: 'Well-located country house in Temucos downtown.',
         ubicacion: 'Villa 3',
         habitaciones: 3,
@@ -102,7 +102,7 @@ export const propiedades_venta = [
     },
     {
         nombre: 'Cabin for sale in Pucón, La Araucanía.',
-        src: '/assets/img/country1.jpg',
+        src: 'country1.jpg',
         descripcion: 'Perfect location to avoid the distress of the city. Montain and lake viewscape included.',
         ubicacion: 'Parcela 34',
         habitaciones: 4,
@@ -118,7 +118,7 @@ export const propiedades_venta = [
 export const propiedades_south = [
     {
         nombre: 'Cabin for sale in Temuco Downtown, La Araucanía.',
-        src: '/assets/img/country.jpg',
+        src: 'country.jpg',
         descripcion: 'Well-located country house in Temucos downtown.',
         ubicacion: 'Villa 3',
         habitaciones: 3,
@@ -132,7 +132,7 @@ export const propiedades_south = [
     },
     {
         nombre: 'Cabin for sale in Pucón, La Araucanía.',
-        src: '/assets/img/country1.jpg',
+        src: 'country1.jpg',
         descripcion: 'Perfect location to avoid the distress of the city. Montain and lake viewscape included.',
         ubicacion: 'Parcela 34',
         habitaciones: 4,
